@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
+/*elementos globais*/
+
+body {
+    margin: 0;
+    background-color: floralwhite;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #FDB927;
+}
+
+p, li{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: initial;
+    margin: auto 10%;
+    line-height: 6vh;
+    color: #552583;
+}
+blockquote {
+    color: #552583;
+}
+blockquote a{
+    color: #FDB927;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+blockquote{
+    text-align: right;
+    margin: 14px 10%;
+}
+
+img, iframe, video, embed{
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destaque{
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+video{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+footer, footer p{
+    background: #552583;
+    color: floralwhite;
+    text-align: center;
+}
